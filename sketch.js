@@ -106,85 +106,85 @@ let randomG = 0;
 let randomB = 0;
 
 
-//wow okay that was a lot of lets. time to preload into arrays!
-function preload() {
+// //wow okay that was a lot of lets. time to preload into arrays!
+// function preload() {
 
   //this took me. so long to figure out. ajkdsklsjdlsjfssfl;dfkdl. needed the ../img/ inside the ('') and the .jpg . i need to lie down orz
   //THAT WAS WRONG. OOPS. NO ../ NEEDED. 
-  pika = loadImage('img/pika.jpg');
+//   pika = loadImage('img/pika.jpg');
   
-  mallardDuck = loadImage('img/mallardDuck.jpg');
-  houseCat = loadImage('img/houseCat.jpg');
-  stBernard = loadImage('img/stBernard.jpg');
-  whiteTailedDeer = loadImage('img/whiteTailedDeer.jpg');
-  canadaGoose = loadImage('img/canadaGoose.jpg');
-  civet = loadImage('img/civet.jpg');
-  americanCrow = loadImage('img/americanCrow.jpg');
-  siberianTiger = loadImage('img/siberianTiger.jpg');
-  ranchuGoldfish = loadImage('img/ranchuGoldFish.jpg');
-  bubbleEyeGoldfish = loadImage('img/bubbleEyeGoldfish.jpg');
-  bullShark = loadImage('img/bullShark.jpg');
-  greatWhiteShark = loadImage('img/greatWhiteShark.jpg');
-  longTailedChinchilla = loadImage('img/longTailedChinchilla.jpg');
-  africanForestBuffalo = loadImage('img/africanForestBuffalo.jpg');
-  jacobSheep = loadImage('img/jacobSheep.jpg');
-  capybara = loadImage('img/capybara.jpg');
-  grayWolf = loadImage('img/grayWolf.jpg');
-  polarBear = loadImage('img/polarBear.jpg');
-  mountainGoat = loadImage('img/mountainGoat.jpg');
-  ankoleWatusiCow = loadImage('img/ankoleWatusiCow.jpg');
-  damascusGoat = loadImage('img/damascusGoat.jpg');
-  greaterKudu = loadImage('img/greaterKudu.jpg');
-  dikdikAntelope = loadImage('img/dikdikAntelope.jpg');
-  barnOwl = loadImage('img/barnOwl.jpg');
-  burrowingOwl = loadImage('img/burrowingOwl.jpg');
-  ghostBat = loadImage('img/ghostBat.jpg');
-  vampireBat = loadImage('img/vampireBat.jpg');
-  jamaicanFruitBat = loadImage('img/jamaicanFruitBat.jpg');
-  nileCrocodile = loadImage('img/nileCrocodile.jpg');
-  falseGharial = loadImage('img/falseGharial.jpg');
-  siameseCrocodile = loadImage('img/siameseCrocodile.jpg');
-  quokka = loadImage('img/quokka.jpg');
-  whaleShark = loadImage('img/whaleShark.jpg');
-  raccoon = loadImage('img/raccoon.jpg');
-  redPanda = loadImage('img/redPanda.jpg');
-  panda = loadImage('img/panda.jpg');
-  spottedHyena = loadImage('img/spottedHyena.jpg');
-  giantAnteater = loadImage('img/giantAnteater.jpg');
-  elephant = loadImage('img/elephant.jpg');
-  harpyEagle = loadImage('img/harpyEagle.jpg');
-  tamarinMonkey = loadImage('img/tamarinMonkey.jpg');
-  africanWildDog = loadImage('img/africanWildDog.jpg');
-  ringTailedLemur = loadImage('img/ringTailedLemur.jpg');
-  coati = loadImage('img/coati.jpg');
-  pygmyHippo = loadImage('img/pygmyHippo.jpg');
-  lion = loadImage('img/lion.jpg');
-  jaguar = loadImage('img/jaguar.jpg');
-  platypus = loadImage('img/platypus.jpg');
-  horse = loadImage('img/horse.jpg');
-  redFox = loadImage('img/redFox.jpg');
-  snappingTurtle = loadImage('img/snappingTurtle.jpg');
-  leatherbackSeaTurtle = loadImage('img/leatherbackSeaTurtle.jpg');
-  hammerheadShark = loadImage('img/hammerheadShark.jpg');
-  asianGiantHornet = loadImage('img/asianGiantHornet.jpg');
-  westernDiamondbackRattleSnake = loadImage('img/westernDiamondbackRattleSnake.jpg');
-  sikaDeer = loadImage('img/sikaDeer.jpg');
-  elk = loadImage('img/elk.jpg');
-  chihuahua = loadImage('img/chihuahua.jpg');
-  borzoi = loadImage('img/borzoi.jpg');
+//   mallardDuck = loadImage('img/mallardDuck.jpg');
+//   houseCat = loadImage('img/houseCat.jpg');
+//   stBernard = loadImage('img/stBernard.jpg');
+//   whiteTailedDeer = loadImage('img/whiteTailedDeer.jpg');
+//   canadaGoose = loadImage('img/canadaGoose.jpg');
+//   civet = loadImage('img/civet.jpg');
+//   americanCrow = loadImage('img/americanCrow.jpg');
+//   siberianTiger = loadImage('img/siberianTiger.jpg');
+//   ranchuGoldfish = loadImage('img/ranchuGoldFish.jpg');
+//   bubbleEyeGoldfish = loadImage('img/bubbleEyeGoldfish.jpg');
+//   bullShark = loadImage('img/bullShark.jpg');
+//   greatWhiteShark = loadImage('img/greatWhiteShark.jpg');
+//   longTailedChinchilla = loadImage('img/longTailedChinchilla.jpg');
+//   africanForestBuffalo = loadImage('img/africanForestBuffalo.jpg');
+//   jacobSheep = loadImage('img/jacobSheep.jpg');
+//   capybara = loadImage('img/capybara.jpg');
+//   grayWolf = loadImage('img/grayWolf.jpg');
+//   polarBear = loadImage('img/polarBear.jpg');
+//   mountainGoat = loadImage('img/mountainGoat.jpg');
+//   ankoleWatusiCow = loadImage('img/ankoleWatusiCow.jpg');
+//   damascusGoat = loadImage('img/damascusGoat.jpg');
+//   greaterKudu = loadImage('img/greaterKudu.jpg');
+//   dikdikAntelope = loadImage('img/dikdikAntelope.jpg');
+//   barnOwl = loadImage('img/barnOwl.jpg');
+//   burrowingOwl = loadImage('img/burrowingOwl.jpg');
+//   ghostBat = loadImage('img/ghostBat.jpg');
+//   vampireBat = loadImage('img/vampireBat.jpg');
+//   jamaicanFruitBat = loadImage('img/jamaicanFruitBat.jpg');
+//   nileCrocodile = loadImage('img/nileCrocodile.jpg');
+//   falseGharial = loadImage('img/falseGharial.jpg');
+//   siameseCrocodile = loadImage('img/siameseCrocodile.jpg');
+//   quokka = loadImage('img/quokka.jpg');
+//   whaleShark = loadImage('img/whaleShark.jpg');
+//   raccoon = loadImage('img/raccoon.jpg');
+//   redPanda = loadImage('img/redPanda.jpg');
+//   panda = loadImage('img/panda.jpg');
+//   spottedHyena = loadImage('img/spottedHyena.jpg');
+//   giantAnteater = loadImage('img/giantAnteater.jpg');
+//   elephant = loadImage('img/elephant.jpg');
+//   harpyEagle = loadImage('img/harpyEagle.jpg');
+//   tamarinMonkey = loadImage('img/tamarinMonkey.jpg');
+//   africanWildDog = loadImage('img/africanWildDog.jpg');
+//   ringTailedLemur = loadImage('img/ringTailedLemur.jpg');
+//   coati = loadImage('img/coati.jpg');
+//   pygmyHippo = loadImage('img/pygmyHippo.jpg');
+//   lion = loadImage('img/lion.jpg');
+//   jaguar = loadImage('img/jaguar.jpg');
+//   platypus = loadImage('img/platypus.jpg');
+//   horse = loadImage('img/horse.jpg');
+//   redFox = loadImage('img/redFox.jpg');
+//   snappingTurtle = loadImage('img/snappingTurtle.jpg');
+//   leatherbackSeaTurtle = loadImage('img/leatherbackSeaTurtle.jpg');
+//   hammerheadShark = loadImage('img/hammerheadShark.jpg');
+//   asianGiantHornet = loadImage('img/asianGiantHornet.jpg');
+//   westernDiamondbackRattleSnake = loadImage('img/westernDiamondbackRattleSnake.jpg');
+//   sikaDeer = loadImage('img/sikaDeer.jpg');
+//   elk = loadImage('img/elk.jpg');
+//   chihuahua = loadImage('img/chihuahua.jpg');
+//   borzoi = loadImage('img/borzoi.jpg');
 
-  //array of images! pls work now!!!!
-  animals = [africanForestBuffalo, africanWildDog, americanCrow, ankoleWatusiCow,asianGiantHornet,
-    barnOwl,borzoi,bubbleEyeGoldfish,bullShark,burrowingOwl,canadaGoose,capybara,chihuahua,civet,
-    coati,damascusGoat,dikdikAntelope,elephant,elk,falseGharial,ghostBat,giantAnteater,grayWolf,
-    greaterKudu,greatWhiteShark,hammerheadShark,harpyEagle,horse,houseCat,jacobSheep,jaguar,
-    jamaicanFruitBat,leatherbackSeaTurtle,lion,longTailedChinchilla,mallardDuck,mountainGoat,
-    nileCrocodile,panda,pika,platypus,polarBear,pygmyHippo,quokka,raccoon,ranchuGoldfish,redFox,
-    redPanda,ringTailedLemur,siameseCrocodile,siberianTiger,sikaDeer,snappingTurtle,spottedHyena,
-    stBernard,tamarinMonkey,vampireBat,westernDiamondbackRattleSnake,whaleShark,whiteTailedDeer];
+//   //array of images! pls work now!!!!
+//   animals = [africanForestBuffalo, africanWildDog, americanCrow, ankoleWatusiCow,asianGiantHornet,
+//     barnOwl,borzoi,bubbleEyeGoldfish,bullShark,burrowingOwl,canadaGoose,capybara,chihuahua,civet,
+//     coati,damascusGoat,dikdikAntelope,elephant,elk,falseGharial,ghostBat,giantAnteater,grayWolf,
+//     greaterKudu,greatWhiteShark,hammerheadShark,harpyEagle,horse,houseCat,jacobSheep,jaguar,
+//     jamaicanFruitBat,leatherbackSeaTurtle,lion,longTailedChinchilla,mallardDuck,mountainGoat,
+//     nileCrocodile,panda,pika,platypus,polarBear,pygmyHippo,quokka,raccoon,ranchuGoldfish,redFox,
+//     redPanda,ringTailedLemur,siameseCrocodile,siberianTiger,sikaDeer,snappingTurtle,spottedHyena,
+//     stBernard,tamarinMonkey,vampireBat,westernDiamondbackRattleSnake,whaleShark,whiteTailedDeer];
 
     
-}
+// }
 
 
 function setup() {
