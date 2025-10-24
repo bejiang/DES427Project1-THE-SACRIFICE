@@ -111,7 +111,7 @@ let randomB = 0;
 
   //this took me. so long to figure out. ajkdsklsjdlsjfssfl;dfkdl. needed the ../img/ inside the ('') and the .jpg . i need to lie down orz
   //THAT WAS WRONG. OOPS. NO ../ NEEDED. 
-//   pika = loadImage('img/pika.jpg');
+pika = loadImage('img/pika.jpg');
   
 //   mallardDuck = loadImage('img/mallardDuck.jpg');
 //   houseCat = loadImage('img/houseCat.jpg');
@@ -200,7 +200,7 @@ function setup() {
 
   //testing
   imageMode(CENTER);
-  // image(pika, width/2,height/2);
+  image(pika, width/2,height/2);
 
 
   text("here!!", 200,200)
