@@ -241,9 +241,9 @@ function randomize() {
   text(colorText, width*(1/6), height/2); // instructions text turns into rgb text, should be in first third of screen
 
   //diff size pics?? may go hunting for better resolution + cropping some if time allows
-  imageMode(CENTER);
-  let randomAnimal = random(animals);
-  image(randomAnimal, width/2, height/2);
+  // imageMode(CENTER);
+  // let randomAnimal = random(animals);
+  // image(randomAnimal, width/2, height/2);
 
  //randomize the theme/aesthetic array
   let i = Math.floor(random(0,themes.length-1)); //should give from 0 - 21?
