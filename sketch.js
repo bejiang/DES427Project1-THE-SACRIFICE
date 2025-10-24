@@ -111,7 +111,7 @@ let randomB = 0;
 
   //this took me. so long to figure out. ajkdsklsjdlsjfssfl;dfkdl. needed the ../img/ inside the ('') and the .jpg . i need to lie down orz
   //THAT WAS WRONG. OOPS. NO ../ NEEDED. 
-pika = loadImage('pika.jpg', handleImage, handleError);
+pika = loadImage("pika.jpg");
   
 //   mallardDuck = loadImage('img/mallardDuck.jpg');
 //   houseCat = loadImage('img/houseCat.jpg');
