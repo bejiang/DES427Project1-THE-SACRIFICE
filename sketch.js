@@ -199,14 +199,14 @@ function setup() {
   text(instructions, width/2, height/5); //not centered?? but it's width/2 edit: fixed! with textAlign(CENTER)
 
   //testing
-  // imageMode(CENTER);
-  //image(pika, width/2,height/2);
+  imageMode(CENTER);
+  // image(pika, width/2,height/2);
 
 
-  //text("here!!", 200,200)
+  text("here!!", 200,200)
 
-  // let rNum = Math.floor(random(themes.length-1));
-  // text(themes[rNum],200,200);
+  let rNum = Math.floor(random(themes.length-1));
+  text(themes[rNum],200,200);
 
   //testing worked!!proof of concept proven! onto the randomize function :D
 }
