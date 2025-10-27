@@ -200,7 +200,7 @@ function setup() {
 
   //testing
   imageMode(CENTER);
-  image(pika, width/2,height/2);
+  //image(pika, width/2,height/2);
 
 
   text("here!!", 200,200)
